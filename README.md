@@ -1,2 +1,2 @@
 # networking
-Programs that pertain to Computer Networks.
+Programs that pertain to Computer Networking.

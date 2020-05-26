@@ -1,0 +1,698 @@
+-----  Stop and Wait Network Simulator Version 1.1 -------- 
+
+Enter the number of messages to simulate: Enter  packet loss probability [enter 0.0 for no loss]:Enter packet corruption probability [0.0 for no corruption]:Enter average time between messages from sender's layer5 [ > 0.0]:Enter TRACE:
+EVENT time: 1870.573975,  type: 1, fromlayer5  entity: 0
+The packet that will be sent from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1940
+Payload: aaaaaaaaaaaaaaaaaaaa
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 1876.039062,  type: 2, fromlayer3  entity: 1
+PACKET IS CORRUPTED
+The NACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1424
+Payload: 
+
+
+EVENT time: 1878.220703,  type: 2, fromlayer3  entity: 0
+The following packet is NACK packet recieved from B 
+The ack expected was #0 but instead recieved #1 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1424
+Payload: 
+Waiting for timer to expire DUE TO NACK PACKET......
+
+
+EVENT time: 1890.573975,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1940
+Payload: aaaaaaaaaaaaaaaaaaaa
+
+
+EVENT time: 1892.594482,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: 
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 1897.061768,  type: 2, fromlayer3  entity: 0
+The following packet is a corrupted packet recieved from B 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: Z
+WAITING FOR TIMER TO EXPIRE DUE TO CORRUPTED ACK PACKET.....
+
+
+EVENT time: 1910.573975,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1940
+Payload: aaaaaaaaaaaaaaaaaaaa
+
+          TOLAYER3: packet being lost
+
+EVENT time: 1930.573975,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1940
+Payload: aaaaaaaaaaaaaaaaaaaa
+
+
+EVENT time: 1940.002441,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: 
+
+
+EVENT time: 1947.465332,  type: 2, fromlayer3  entity: 0
+The following packet is a correct ACK packet recieved from B 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: 
+
+
+EVENT time: 3512.483887,  type: 1, fromlayer5  entity: 0
+The packet that will be sent from A to B contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1962
+Payload: bbbbbbbbbbbbbbbbbbbb
+
+
+EVENT time: 3515.214111,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1424
+Payload: 
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 3517.580566,  type: 2, fromlayer3  entity: 0
+The following packet is a corrupted packet recieved from B 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1424
+Payload: Z
+WAITING FOR TIMER TO EXPIRE DUE TO CORRUPTED ACK PACKET.....
+
+
+EVENT time: 3532.483887,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1962
+Payload: bbbbbbbbbbbbbbbbbbbb
+
+          TOLAYER3: packet being lost
+
+EVENT time: 3552.483887,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1962
+Payload: bbbbbbbbbbbbbbbbbbbb
+
+          TOLAYER3: packet being lost
+
+EVENT time: 3572.483887,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1962
+Payload: bbbbbbbbbbbbbbbbbbbb
+
+
+EVENT time: 3578.732910,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1165
+Payload: 
+
+
+EVENT time: 3580.213623,  type: 2, fromlayer3  entity: 0
+The following packet is a correct ACK packet recieved from B 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1165
+Payload: 
+
+
+EVENT time: 4630.183594,  type: 1, fromlayer5  entity: 0
+The packet that will be sent from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1980
+Payload: cccccccccccccccccccc
+
+
+EVENT time: 4636.544434,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1422
+Payload: 
+
+          TOLAYER3: packet being lost
+
+EVENT time: 4650.183594,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1980
+Payload: cccccccccccccccccccc
+
+
+EVENT time: 4651.242188,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: 
+
+          TOLAYER3: packet being lost
+
+EVENT time: 4670.183594,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1980
+Payload: cccccccccccccccccccc
+
+
+EVENT time: 4675.457520,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: 
+
+          TOLAYER3: packet being lost
+
+EVENT time: 4690.183594,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1980
+Payload: cccccccccccccccccccc
+
+
+EVENT time: 4698.964844,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: 
+
+          TOLAYER3: packet being lost
+
+EVENT time: 4710.183594,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1980
+Payload: cccccccccccccccccccc
+
+          TOLAYER3: packet being lost
+
+EVENT time: 4730.183594,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1980
+Payload: cccccccccccccccccccc
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 4735.002930,  type: 2, fromlayer3  entity: 1
+PACKET IS CORRUPTED
+The NACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1165
+Payload: 
+
+
+EVENT time: 4738.664551,  type: 2, fromlayer3  entity: 0
+The following packet is NACK packet recieved from B 
+The ack expected was #0 but instead recieved #1 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1165
+Payload: 
+Waiting for timer to expire DUE TO NACK PACKET......
+
+
+EVENT time: 4750.183594,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1980
+Payload: cccccccccccccccccccc
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 4759.094238,  type: 2, fromlayer3  entity: 1
+PACKET IS CORRUPTED
+The NACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1165
+Payload: 
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 4764.711914,  type: 2, fromlayer3  entity: 0
+The following packet is a corrupted packet recieved from B 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1165
+Payload: Z
+WAITING FOR TIMER TO EXPIRE DUE TO CORRUPTED ACK PACKET.....
+
+
+EVENT time: 4770.183594,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1980
+Payload: cccccccccccccccccccc
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 4772.215332,  type: 2, fromlayer3  entity: 1
+PACKET IS CORRUPTED
+The NACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1165
+Payload: 
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 4779.958496,  type: 2, fromlayer3  entity: 0
+The following packet is a corrupted packet recieved from B 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1165
+Payload: Z
+WAITING FOR TIMER TO EXPIRE DUE TO CORRUPTED ACK PACKET.....
+
+
+EVENT time: 4790.183594,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1980
+Payload: cccccccccccccccccccc
+
+
+EVENT time: 4796.875000,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: 
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 4802.347656,  type: 2, fromlayer3  entity: 0
+The following packet is a corrupted packet recieved from B 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: Z
+WAITING FOR TIMER TO EXPIRE DUE TO CORRUPTED ACK PACKET.....
+
+
+EVENT time: 4810.183594,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1980
+Payload: cccccccccccccccccccc
+
+
+EVENT time: 4815.570312,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: 
+
+
+EVENT time: 4817.274414,  type: 2, fromlayer3  entity: 0
+The following packet is a correct ACK packet recieved from B 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: 
+
+
+EVENT time: 5705.288086,  type: 1, fromlayer5  entity: 0
+The packet that will be sent from A to B contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 2002
+Payload: dddddddddddddddddddd
+
+
+EVENT time: 5713.246094,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1424
+Payload: 
+
+
+EVENT time: 5717.638672,  type: 2, fromlayer3  entity: 0
+The following packet is a correct ACK packet recieved from B 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1424
+Payload: 
+
+
+EVENT time: 5821.666992,  type: 1, fromlayer5  entity: 0
+The packet that will be sent from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 2020
+Payload: eeeeeeeeeeeeeeeeeeee
+
+
+EVENT time: 5831.515137,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1422
+Payload: 
+
+
+EVENT time: 5834.260254,  type: 2, fromlayer3  entity: 0
+The following packet is a correct ACK packet recieved from B 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1422
+Payload: 
+
+
+EVENT time: 6425.721191,  type: 1, fromlayer5  entity: 0
+The packet that will be sent from A to B contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 2042
+Payload: ffffffffffffffffffff
+
+
+EVENT time: 6432.336914,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1424
+Payload: 
+
+
+EVENT time: 6435.644043,  type: 2, fromlayer3  entity: 0
+The following packet is a correct ACK packet recieved from B 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1424
+Payload: 
+
+
+EVENT time: 7933.972656,  type: 1, fromlayer5  entity: 0
+The packet that will be sent from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 2060
+Payload: gggggggggggggggggggg
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 7935.486816,  type: 2, fromlayer3  entity: 1
+PACKET IS CORRUPTED
+The NACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1422
+Payload: 
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 7936.584961,  type: 2, fromlayer3  entity: 0
+The following packet is a corrupted packet recieved from B 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1422
+Payload: Z
+WAITING FOR TIMER TO EXPIRE DUE TO CORRUPTED ACK PACKET.....
+
+
+EVENT time: 7953.972656,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 2060
+Payload: gggggggggggggggggggg
+
+
+EVENT time: 7956.122070,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: 
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 7957.706055,  type: 2, fromlayer3  entity: 0
+The following packet is a corrupted packet recieved from B 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: Z
+WAITING FOR TIMER TO EXPIRE DUE TO CORRUPTED ACK PACKET.....
+
+
+EVENT time: 7973.972656,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 2060
+Payload: gggggggggggggggggggg
+
+
+EVENT time: 7979.219727,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: 
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 7988.163574,  type: 2, fromlayer3  entity: 0
+The following packet is a corrupted packet recieved from B 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: Z
+WAITING FOR TIMER TO EXPIRE DUE TO CORRUPTED ACK PACKET.....
+
+
+EVENT time: 7993.972656,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 2060
+Payload: gggggggggggggggggggg
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 8003.294922,  type: 2, fromlayer3  entity: 1
+PACKET IS CORRUPTED
+The NACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1165
+Payload: 
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 8006.291504,  type: 2, fromlayer3  entity: 0
+The following packet is a corrupted packet recieved from B 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1165
+Payload: Z
+WAITING FOR TIMER TO EXPIRE DUE TO CORRUPTED ACK PACKET.....
+
+
+EVENT time: 8013.972656,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 2060
+Payload: gggggggggggggggggggg
+
+          TOLAYER3: packet being corrupted
+
+EVENT time: 8015.121582,  type: 2, fromlayer3  entity: 1
+PACKET IS CORRUPTED
+The NACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1165
+Payload: 
+
+
+EVENT time: 8022.689941,  type: 2, fromlayer3  entity: 0
+The following packet is NACK packet recieved from B 
+The ack expected was #0 but instead recieved #1 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1165
+Payload: 
+Waiting for timer to expire DUE TO NACK PACKET......
+
+
+EVENT time: 8033.972656,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 2060
+Payload: gggggggggggggggggggg
+
+
+EVENT time: 8038.146484,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: 
+
+
+EVENT time: 8045.748535,  type: 2, fromlayer3  entity: 0
+The following packet is a correct ACK packet recieved from B 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: 
+
+
+EVENT time: 9102.700195,  type: 1, fromlayer5  entity: 0
+The packet that will be sent from A to B contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 2082
+Payload: hhhhhhhhhhhhhhhhhhhh
+
+
+EVENT time: 9107.600586,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1424
+Payload: 
+
+
+EVENT time: 9117.338867,  type: 2, fromlayer3  entity: 0
+The following packet is a correct ACK packet recieved from B 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 1424
+Payload: 
+
+
+EVENT time: 10274.186523,  type: 1, fromlayer5  entity: 0
+The packet that will be sent from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 2100
+Payload: iiiiiiiiiiiiiiiiiiii
+
+
+EVENT time: 10280.128906,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1422
+Payload: 
+
+          TOLAYER3: packet being lost
+
+EVENT time: 10294.186523,  type: 0, timerinterrupt   entity: 0
+TIMER INTERUPTED
+The packet that will be RETRANSMITTED from A to B contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 2100
+Payload: iiiiiiiiiiiiiiiiiiii
+
+
+EVENT time: 10301.017578,  type: 2, fromlayer3  entity: 1
+The ACK packet that will be sent from B to A contains the following information: 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: 
+
+
+EVENT time: 10310.217773,  type: 2, fromlayer3  entity: 0
+The following packet is a correct ACK packet recieved from B 
+Sequence Number: 0
+Acknowledgement Number: 0
+Checksum Number: 1163
+Payload: 
+
+
+EVENT time: 10790.132812,  type: 1, fromlayer5  entity: 0
+The packet that will be sent from A to B contains the following information: 
+Sequence Number: 1
+Acknowledgement Number: 1
+Checksum Number: 2122
+Payload: jjjjjjjjjjjjjjjjjjjj
+
+
+EVENT time: 10796.671875,  type: 2, fromlayer3  entity: 1
+ Simulator terminated at time 10796.671875
+ after sending 10 msgs from layer5
